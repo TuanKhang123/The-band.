@@ -1,0 +1,117 @@
+/* Có thể đổi những cái break point từ px --> em. "Search: convert to px from em" */
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+/* Tablet && Mobie: Những cái nút của ipad,mobie nên rộng 42-46 */ 
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #fotter .social-list {
+        font-size: 48px;
+    }
+
+    #fotter .copyright {
+        font-size: 18px;
+    }
+
+    #fotter .social-list a {
+        margin: 0 8px;
+    }
+
+    #fotter .copyright a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+    
+    .contact-content {
+        line-height: 2.0;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .content-section {
+        width: 100%;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    } 
+}
+/* Mobie */
+@media (max-width: 739px) {
+
+    
+    #herder {
+        /* ẩn tất cả các con vượt ra ngoài thẻ cha */
+        overflow: hidden;
+    }
+
+    #herder .mobile-menu-btn {
+        display: block;
+    }
+
+    #herder .search-button {
+        display: none;
+    }
+
+    #content .content-section {
+        width: 100%;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .row {
+        display: block;
+    }
+    
+    .col-full {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+        margin-top: 16px;
+    }
+ 
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+    
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;     
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 5px  40px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
